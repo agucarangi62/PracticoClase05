@@ -99,6 +99,7 @@ namespace Clase05
             if (reader.Read())
             {
                 TextBox2.Text = reader["descripcion"].ToString();
+                actualizarLabel();
             }
 
         }
